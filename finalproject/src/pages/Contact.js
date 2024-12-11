@@ -36,7 +36,7 @@ const Contact = () => {
     }
     if (!formData.password) {
       newErrors.password = 'Password is required';
-    } else if (formData.password.length > 8 || formData.password.length < 8) {
+    } else if (formData.password.length > 10 || formData.password.length < 10) {
       newErrors.password = 'Password must be exactly 8 characters';
     } else if (!/[A-Z]/.test(formData.password)) {
       newErrors.password = 'Password must contain at least one uppercase letter';
