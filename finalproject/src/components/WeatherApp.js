@@ -11,7 +11,7 @@ const weatherImages = {
   "thunderstorm": "/weather-icons/thunderstorm.png",
   "snow": "/weather-icons/snow.png",
   "mist": "/weather-icons/mist.png",
-  "over cast": "/weather-icons/overcastcloud.png",
+  "over cast": "/weather-icons/Overcast_clouds.png",
   "light snow": "/weather-icons/lightsnow.png",
   "drizzle": "/weather-icons/drizzle.png",
 };
